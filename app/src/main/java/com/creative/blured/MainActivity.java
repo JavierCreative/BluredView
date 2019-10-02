@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked()
     {
         Bitmap bitmap = BitmapUtils.getBitmapFromView(mainView);
-        mBluredBluredbiew.applyBlurToView(bitmap,20,3);
+        mBluredBluredbiew.applyBlurEffect(bitmap,20,3,this);
     }
 }
